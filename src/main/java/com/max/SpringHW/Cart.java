@@ -13,7 +13,7 @@ import java.util.List;
 public class Cart {
     private List<Product> productList;
     @Autowired
-    private ProductRepository pr;
+    private ProductRepository pr; //test
 
     @PostConstruct
     private void init(){
